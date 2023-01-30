@@ -1,0 +1,80 @@
+header{
+  display:flex;
+  flex-direction:column;
+  position:fixed;
+  right:0;
+  left:0;
+
+
+
+
+}
+
+.top-section{
+  display:flex;
+  height:150px;
+  position:relative;
+  justify-content:center;
+  align-items:center;
+
+}
+
+
+.lava-image{
+  object-fit:cover;
+  height:150px;
+  width:100%;
+}
+
+
+.blog-title{
+  color: white;
+  font-size:70px;
+  position:absolute;
+  top: 10px;
+  font-family: 'Cormorant Garamond', serif;
+
+
+
+
+}
+
+
+
+.bottom-section{
+  display:flex;
+  flex-direction:row;
+  background-color:black;
+  height:30px;
+  align-items:center;
+
+
+}
+
+.accueil-link{
+  margin-right:30px;
+  margin-left:20px;
+  font-size:20px;
+  color:white;
+  font-family: 'Saira', sans-serif;
+  transition:color 0.15s;
+
+}
+
+
+.a-propos-link{
+  font-size:20px;
+  color:white;
+  font-family: 'Saira', sans-serif;
+  transition:color 0.15s;
+}
+
+.accueil-link:hover{
+  color: rgb(255, 148, 102);
+  
+  
+}
+
+.a-propos-link:hover{
+  color: rgb(255, 148, 102);
+}
