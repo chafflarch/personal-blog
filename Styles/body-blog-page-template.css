@@ -46,3 +46,23 @@
 
 }
 
+.item_enum{
+
+  font-weight: 700;
+  padding-bottom:5px;
+  padding-top:40px;
+
+
+}
+
+.lien_source{
+
+  color:rgb(116, 150, 180);
+
+}
+
+.lien_source{
+
+  word-break:break-all;
+  inline-size : 200px;
+} 
